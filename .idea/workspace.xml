@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e8ac8c3-a522-4101-bce4-6c84d1937d63" name="Changes" comment="Init project">
-      <change afterPath="$PROJECT_DIR$/render.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5e8ac8c3-a522-4101-bce4-6c84d1937d63" name="Changes" comment="Add render deploy">
+      <change afterPath="$PROJECT_DIR$/_composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +15,9 @@
   </component>
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,6 +98,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Composer Script.auto-scripts.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -120,6 +123,16 @@
       <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
       <method v="2" />
     </configuration>
+    <configuration name="auto-scripts" type="ComposerRunConfigurationType" factoryName="Composer Script" temporary="true">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
+      <option name="script" value="auto-scripts" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Composer Script.auto-scripts" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -137,7 +150,7 @@
       <option name="presentableId" value="Default" />
       <updated>1759422129168</updated>
       <workItem from="1759422130197" duration="2717000" />
-      <workItem from="1759425469370" duration="4323000" />
+      <workItem from="1759425469370" duration="9299000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <option name="closed" value="true" />
@@ -147,7 +160,119 @@
       <option name="project" value="LOCAL" />
       <updated>1759479806319</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add render deploy">
+      <option name="closed" value="true" />
+      <created>1759480950789</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759480950790</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add render deploy">
+      <option name="closed" value="true" />
+      <created>1759481569305</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759481569305</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add render deploy">
+      <option name="closed" value="true" />
+      <created>1759482309993</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759482309993</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add render deploy">
+      <option name="closed" value="true" />
+      <created>1759482735906</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1759482735906</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add render deploy">
+      <option name="closed" value="true" />
+      <created>1759483199165</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759483199165</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add render deploy">
+      <option name="closed" value="true" />
+      <created>1759483489892</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759483489892</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add render deploy">
+      <option name="closed" value="true" />
+      <created>1759484087166</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1759484087166</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add render deploy">
+      <option name="closed" value="true" />
+      <created>1759484377312</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1759484377312</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add render deploy">
+      <option name="closed" value="true" />
+      <created>1759484585205</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1759484585205</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add render deploy">
+      <option name="closed" value="true" />
+      <created>1759494040277</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1759494040277</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add render deploy">
+      <option name="closed" value="true" />
+      <created>1759494401995</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1759494401995</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add render deploy">
+      <option name="closed" value="true" />
+      <created>1759494650089</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1759494650089</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add render deploy">
+      <option name="closed" value="true" />
+      <created>1759496031049</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1759496031051</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add render deploy">
+      <option name="closed" value="true" />
+      <created>1759496326728</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1759496326728</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +280,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init project" />
+    <MESSAGE value="Add render deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add render deploy" />
   </component>
 </project>

@@ -1,8 +1,7 @@
 services:
-    - type: web
-      name: symfony-running-app
-      env: docker
-      plan: free
-      dockerfilePath: ./docker/php/Dockerfile
-      buildCommand: ""
-      startCommand: php -S 0.0.0.0:10000 -t public
+    -   type: web
+        name: symfony-running-app
+        env: docker
+        plan: free
+        dockerfilePath: ./docker/render/Dockerfile
+        buildCommand: ""
